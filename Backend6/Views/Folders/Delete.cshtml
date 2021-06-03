@@ -1,0 +1,20 @@
+﻿@model Backend6.Models.Folder
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+
+<ol class="breadcrumb breadcrumb-top">
+    <li><a asp-action="Index" asp-controller="Folders">Root</a></li>
+    <li><a href="#">@Model.Name</a></li>
+    <li class="active">Delete</li>
+</ol>
+
+<h2>Delete @Model.Name ?</h2>
+<div>
+    <form asp-action="Delete" asp-controller="Folders">
+        <button asp-route-idParent="@Model.Id" type="submit" class="btn btn-danger">Delete</button>
+        <a class="btn btn-default" asp-action="Index">Cancel</a>
+    </form>
+</div>

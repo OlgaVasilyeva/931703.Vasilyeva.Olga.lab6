@@ -1,0 +1,16 @@
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\bin\Debug\netcoreapp2.1\bundleconfig.json
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\bin\Debug\netcoreapp2.1\Backend6.deps.json
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\bin\Debug\netcoreapp2.1\Backend6.runtimeconfig.json
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\bin\Debug\netcoreapp2.1\Backend6.runtimeconfig.dev.json
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\bin\Debug\netcoreapp2.1\Backend6.dll
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\bin\Debug\netcoreapp2.1\Backend6.pdb
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\obj\Debug\netcoreapp2.1\Backend6.csprojAssemblyReference.cache
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\obj\Debug\netcoreapp2.1\Backend6.AssemblyInfoInputs.cache
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\obj\Debug\netcoreapp2.1\Backend6.AssemblyInfo.cs
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\obj\Debug\netcoreapp2.1\Backend6.csproj.CoreCompileInputs.cache
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\obj\Debug\netcoreapp2.1\Backend6.dll
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\obj\Debug\netcoreapp2.1\Backend6.pdb
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\obj\Debug\netcoreapp2.1\Backend6.genruntimeconfig.cache
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Backend6.Models.Folder>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<ol class="breadcrumb breadcrumb-top">
+    <li class="active">Root</li>
+</ol>
+<div class="btn-toolbar" role="toolbar">
+    <div class="btn-group" role="group">
+        <a asp-action="Create" asp-controller="Folders" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span> New folder</a>
+    </div>
+</div>
+<table class="table table-bordered table-striped table-top">
+    <colgroup>
+        <col style="width: 60%" />
+        <col style="width: 20%" />
+        <col style="width: 20%" />
+    </colgroup>
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Type
+            </th>
+            <th>
+                Size
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-action="Details" asp-route-idParent="@item.Id" asp-controller="Folders">
+                        <span class="glyphicon glyphicon-folder-open"></span>
+                        @item.Name
+                    </a>
+                </td>
+                <td>
+                    Folder
+                </td>
+                <td>
+                    -
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

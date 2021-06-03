@@ -1,0 +1,21 @@
+﻿@model Backend6.Models.File
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<ol class="breadcrumb breadcrumb-top">
+    <li class="active">@Model.Name</li>
+</ol>
+
+<h2>@Model.Name</h2>
+
+<div class="btn-toolbar">
+    <div class="btn-group">
+        <a class="btn btn-default" asp-action="Edit" asp-route-idFile="@Model.Id" asp-controller="Files">Edit</a>
+        <a class="btn btn-default" asp-action="Delete" asp-route-idFile="@Model.Id" asp-controller="Files">Delete</a>
+    </div>
+    <div class="btn-group">
+        <a class="btn btn-default" asp-action="Details" asp-controller="Folders" asp-route-idParent="@Model.FolderId">Back</a>
+    </div>
+</div>

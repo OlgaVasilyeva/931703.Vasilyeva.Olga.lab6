@@ -1,0 +1,25 @@
+﻿@model Backend6.Models.File
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<ol class="breadcrumb breadcrumb-top">
+    <li class="active">Edit</li>
+</ol>
+
+<h2>Edit @Model.Name</h2>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" asp-controller="Files" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Name</label>
+                <input asp-for="Name" type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+                <button asp-route-idFile="@ViewBag.Files.Id" type="submit" class="btn btn-primary">Save</button>
+                <a class="btn btn-default" asp-action="Details" asp-controller="Files" asp-route-idFile ="@Model.Id">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>

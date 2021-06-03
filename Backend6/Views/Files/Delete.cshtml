@@ -1,0 +1,18 @@
+﻿@model Backend6.Models.File
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+
+<ol class="breadcrumb breadcrumb-top">
+    <li class="active">Delete</li>
+</ol>
+
+<h2>Delete @Model.Name ?</h2>
+<div>
+    <form asp-action="Delete" asp-controller="Files">
+        <button asp-route-idFile="@Model.Id" type="submit" class="btn btn-danger">Delete</button>
+        <a class="btn btn-default" asp-action="Details" asp-controller="Files" asp-route-idFile ="@Model.Id">Cancel</a>
+    </form>
+</div>

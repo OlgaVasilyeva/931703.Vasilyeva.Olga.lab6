@@ -1,0 +1,5 @@
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\obj\Debug\netcoreapp2.0\Backend6.csprojAssemblyReference.cache
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\obj\Debug\netcoreapp2.0\Backend6.AssemblyInfoInputs.cache
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\obj\Debug\netcoreapp2.0\Backend6.AssemblyInfo.cs
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\obj\Debug\netcoreapp2.0\Backend6.csproj.CoreCompileInputs.cache
+C:\Учебное\Веб20\Web 2 semestr\Лабы\Лабы2\Backend6\Backend6\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
